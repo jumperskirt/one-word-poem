@@ -1,36 +1,33 @@
-/*div {
-  background-color: lightgrey;
-  width: 300px;
-  border: 25px solid green;
-  padding: 25px;
-  margin: 25px;
-}*/
+section {
+  max-width: 740px;
+  margin: 0 auto;
+  font-family: 'Old Standard TT', serif;
+}
+
+.column {
+  flex: 1 1 0px;
+}
+
+section:first-of-type .column:first-of-type {
+  flex: 2 2 22px;
+}
 
 
-.search-bar {
-  margin: 20px;
+.header {
+  font-size: 2em;
+}
+
+input {
   text-align: center;
+  width: 20%;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1em;
 }
 
-.search-bar input {
-  width: 75%;
+.word-image-poem {
+
 }
 
-.poem-item img {
-  max-width: 64px;
-}
+.footer {
 
-.poem-detail .details {
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.list-group-item {
-  cursor: pointer;
-}
-
-.list-group-item:hover {
-  background-color: #eee;
 }

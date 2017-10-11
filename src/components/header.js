@@ -2,7 +2,11 @@ import React from 'react';
 
 const Header = () => {
   return(
-    <div><h1>one word poem</h1></div>
+    <div className="header">
+      <h1>one</h1>
+      <h1>word</h1>
+      <h1>poem</h1>
+    </div>
   );
 }
 
